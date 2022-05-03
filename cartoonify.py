@@ -17,6 +17,6 @@ cv2.imshow("Image" , img)
 cv2.imshow("Cartoon", cartoon)
 
 #save
-cv2.imwrite("cartoon.jpg", cartoon)
+cv2.imwrite("cartoonified_image.jpg", cartoon)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
